@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body
+{
+  margin: 0 auto;
+       
+}
+/*-------header-------*/
+.header
+{
+    background: #fff;
+    height: 160px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+.header__bar
+{
+    background: #166cd0;
+    height: 45px;
+    
+}
+.header__left
+{
+   float: left;
+   margin: 15px 15px 0 20px;
+    vertical-align: middle;
+    font-family: 'Raleway';
+    
+    
+}
+.header__left>a
+{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+.header__right
+{
+    float: right;
+    margin: 15px 20px 0 0;
+    font-family: 'Raleway';
+    
+}
+.header__right>a
+{
+    color: #fff;
+    text-decoration: none; 
+}
+
+.header__nav
+{
+    clear: both;
+    background: #fff;
+        
+}
+.header__nav
+{
+   margin: 0; 
+}
+.header__logo
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 90px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.nav
+{
+    float: right;
+    margin: 45px 0 45px 0;
+}
+.nav>ul
+{
+    margin: 0;
+   
+}
+.nav ul>li
+{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+ 
+   
+}
+.nav ul li>a
+{
+    font-family: 'Raleway';
+    text-decoration: none;
+    padding: 20px;
+    transition: all 300ms ease-in-out;
+}
+.nav ul li>a:hover
+{
+   background: #166cd0;   
+   color: #fff;
+    
+}
+.select__item__nav
+{
+     background: #166cd0;  color: #fff;
+}
+
+.header__footer
+{
+    height: 1px;
+    background: #999;
+    box-shadow: 0 -1px 2px #000;
+}
+
+/*-------END --header-------*/
+.banner
+{
+    
+  top: 50px;  background:url(../images/wallpaper1.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; 
+    clear: both;
+    
+    height:600px;
+    
+    
+}
+.content__banner
+{
+  position: absolute;
+    top: 250px;
+}
+.content__banner>p
+{
+    font-family: 'Raleway';
+
+    padding: 25px 20px 25px 20px;
+    background: rgba(0,0,0,0.5);
+    
+   
+}
+.button__banner
+{
+   position: absolute;
+    top: 500px;
+    
+}
+.button__banner>a
+{
+    width: 20px;
+    font-family: 'Raleway';
+    padding: 10px 75px;
+    background: #2582ef;
+    color:#fff;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: all 300ms ease-in-out;
+    
+}
+.button__banner>a:hover
+{
+    background: #fff;
+    color: #333;
+    border-bottom: 3px solid #2582ef;
+}
+
+
+/*---------banner---------*/
+
+/*sections*/
+.section__curses
+{
+    background: #fafafa;
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+}
+.article__curses
+{
+    display: inline-flex;
+    
+    
+}
+.article__curses__left
+{
+    width: 35%; 
+    background: #fff;
+    margin: 0 15px;
+    
+}
+.article__curses__left .article__separator
+{
+    height: 5px;
+    background: #6acc29;
+    margin: 0 auto 0 auto;
+    margin: 0px;
+	padding: 0px 0px 8px 0px;
+}
+.article__curses__center .article__separator
+{
+    height: 5px;
+    background: #d0d0d0;
+    margin: 0 auto 0 auto;
+    margin: 0px;
+	padding: 0px 0px 8px 0px;
+}
+.article__curses__right .article__separator
+{
+    height: 5px;
+    background: #166cd0;
+    margin: 0 auto 0 auto;
+    margin: 0px;
+	padding: 0px 0px 8px 0px;
+}
+
+.article__curses__left>img
+{
+    width: 420px;
+    height: 310px;
+    text-align: center;
+    
+   
+}
+.article__curses__center>img
+{
+    width: 420px;
+    height: 310px;
+    text-align: center;
+    
+   
+}
+.article__curses__right>img
+{
+    width: 420px;
+    height: 310px;
+    text-align: center;
+    
+   
+}
+
+.article__curses__center
+{
+    width: 35%;
+    margin: 0 15px;
+    background: #fff;
+    
+}
+.article__curses__right
+{
+    width: 35%;
+    margin: 0 15px;
+    background: #fff;
+    
+}
+.section__title
+{
+    padding: 15px 15px 0 15px; 
+}
+.section__curses article h1
+{
+    font-size: 35px;
+    font-family: 'Raleway';
+    text-align: center; 
+}
+.section__curses article p
+{
+    font-size: 20px;
+    font-family: 'Raleway';
+    text-align: center; 
+}
+.section__about
+{
+   background: #2582ef;
+   margin: 0 auto;
+   font-family: 'Raleway';
+   font-size: 35px;
+   text-align: center; 
+   color:#fff;
+}
+.section__about article h1
+{
+   
+    
+}
+    
+
+/*END SECTIONS*/
+
+
+/*Footer*/
+.footer
+{
+    clear: both;
+
+}
+.footer__about
+{
+   height: 120px;
+    background: #333;
+    display: flex;
+}
+
+.footer__about .footer__about__left
+{
+    background: #ddd;
+    height: auto;
+    width: 35%;
+    font-family: 'Raleway'; 
+    text-align: center;
+    
+}
+.footer__about .footer__about__left .footer__contact>p
+{
+   
+     font-size: 12px;
+}
+
+.footer__about .footer__about__center
+{
+    background: #ddd;
+    height: auto;
+    width: 35%;
+    font-family: 'Raleway'; 
+}
+.footer__about .footer__about__center>p
+{
+    padding-left: 20px;
+    text-align: 
+    center;
+}
+.footer__certs
+{
+     text-align: 
+    center;
+}
+.footer__certs>p
+{
+    font-size: 12px;
+    padding-left: 20px;
+    
+}
+
+.footer__certs>a
+{
+    margin-top: 15px;
+    background: #166cd0;
+    padding: 10px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 300ms ease-in-out;
+}
+.a__verify:hover
+{
+   background:  #6acc29;
+    
+}
+.footer__about .footer__about__right
+{
+    background: #ddd;
+    height: auto;
+    width: 35%;
+    font-family: 'Raleway';
+    text-align: center;
+}
+.footer__about__right .footer__suscription>input[type="text"]
+{
+    height: 20px; border:none;  
+}
+
+.footer__about__right .footer__suscription>input[type="submit"]
+{
+    height: 20px; border:none; 
+    background: #6acc29;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+.footer__about__right .footer__suscription>input[type="submit"]:hover
+{
+  cursor: pointer;
+    background: #166cd0;
+}
+.footer  
+ .footer__copy>p
+{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 12px;
+    
+}
+
+
