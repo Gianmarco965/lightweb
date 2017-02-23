@@ -310,9 +310,16 @@ body
     font-family: 'Raleway';
     text-align: center; 
 }
+.section__metodology article h1
+{
+        font-size: 35px;
+    font-family: 'Raleway';
+    text-align: center;
+}
 .section__metodology__rows
 {
     margin: 20px 150px; 
+    display: inline-block;
 }
 
 .section__metodology__rows>img
@@ -327,7 +334,7 @@ body
      float: right;
      width: 50%;
 }
-div>.section__metodology__title
+.section__metodology__rows div>.section__metodology__title
 {
     font-size:24px;
     text-align: center;
@@ -335,6 +342,14 @@ div>.section__metodology__title
  
 }
 
+.section__metodology__rows div>.section__metodology__description
+{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Raleway';
+    margin: 0 35px;
+  
+}
 
 
 
