@@ -298,6 +298,17 @@ body
     font-size: 32px;
     border-radius: 18px;
 }
+.section__metodology
+{
+    
+    
+}
+.section__metodology  article h1
+{
+    font-size: 35px;
+    font-family: 'Raleway';
+    text-align: center; 
+}
 
 /*END SECTIONS*/
 
