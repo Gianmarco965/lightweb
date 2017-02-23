@@ -316,25 +316,25 @@ body
     font-family: 'Raleway';
     text-align: center;
 }
-.section__metodology__rows
+.section__metodology__rows__left
 {
     margin: 20px 150px; 
     display: inline-block;
 }
 
-.section__metodology__rows>img
+.section__metodology__rows__left>img
 {
      width: 300px;
      height: 300px;
      float: left;
      width: 50%;
 }
-.section__metodology__rows>div
+.section__metodology__rows__left>div
 {
      float: right;
      width: 50%;
 }
-.section__metodology__rows div>.section__metodology__title
+.section__metodology__rows__left div>.section__metodology__title
 {
     font-size:24px;
     text-align: center;
@@ -342,7 +342,7 @@ body
  
 }
 
-.section__metodology__rows div>.section__metodology__description
+.section__metodology__rows__left div>.section__metodology__description
 {
     font-size: 18px;
     text-align: center;
@@ -350,7 +350,37 @@ body
     margin: 0 35px;
   
 }
-
+.section__metodology__rows__right
+{
+    margin: 20px 150px; 
+    display: inline-block;
+}
+.section__metodology__rows__right>img
+{
+     width: 300px;
+     height: 300px;
+     float: right;
+     width: 50%;
+}
+.section__metodology__rows__right>div
+{
+     float: left;
+     width: 50%;
+}
+.section__metodology__rows__right div>.section__metodology__title
+{
+    font-size:24px;
+    text-align: center;
+    font-family: 'Raleway';
+}
+.section__metodology__rows__right div>.section__metodology__description
+{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Raleway';
+    margin: 0 35px;
+  
+}
 
 
 /*END SECTIONS*/
