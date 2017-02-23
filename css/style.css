@@ -303,12 +303,40 @@ body
     
     
 }
-.section__metodology  article h1
+
+.section__metodology article p
 {
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Raleway';
     text-align: center; 
 }
+.section__metodology__rows
+{
+    margin: 20px 150px; 
+}
+
+.section__metodology__rows>img
+{
+     width: 300px;
+     height: 300px;
+     float: left;
+     width: 50%;
+}
+.section__metodology__rows>div
+{
+     float: right;
+     width: 50%;
+}
+div>.section__metodology__title
+{
+    font-size:24px;
+    text-align: center;
+    font-family: 'Raleway';
+ 
+}
+
+
+
 
 /*END SECTIONS*/
 
