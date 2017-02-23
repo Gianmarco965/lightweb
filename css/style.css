@@ -277,18 +277,27 @@ body
 .section__about
 {
    background: #2582ef;
-   margin: 0 auto;
+   margin: 10px auto;
    font-family: 'Raleway';
    font-size: 35px;
    text-align: center; 
    color:#fff;
+    
 }
 .section__about article h1
 {
    
     
 }
+.section__discovery
+{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    background: #6acc29;
+    font-size: 32px;
     
+}
 
 /*END SECTIONS*/
 
