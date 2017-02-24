@@ -336,6 +336,7 @@ body
 }
 .section__metodology__rows__left div>.section__metodology__title
 {
+    color: #166cd0;
     font-size:24px;
     text-align: center;
     font-family: 'Raleway';
@@ -369,6 +370,7 @@ body
 }
 .section__metodology__rows__right div>.section__metodology__title
 {
+    color: #166cd0;
     font-size:24px;
     text-align: center;
     font-family: 'Raleway';
