@@ -127,10 +127,23 @@ body
     height:660px;
     
 }
+.form__content
+{
+    top: 200px;
+    float: right;
+    position: relative;
+   
+    
+}
+.form__content__form
+{
+    margin: 50px;
+    background: #fff;
+}
 .content__banner
 {
     position: absolute;
-    top: 250px;
+    top: 380px;
 }
 .content__banner>p
 {
@@ -141,7 +154,7 @@ body
 .button__banner
 {
    position: absolute;
-   top: 500px; 
+   top: 600px; 
 }
 .button__banner>a
 {
