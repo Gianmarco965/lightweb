@@ -2,8 +2,7 @@
 
 body
 {
-  margin: 0 auto;
-       
+  margin: 0 auto;   
 }
 /*-------header-------*/
 .header
@@ -125,30 +124,24 @@ body
     padding: 10px 0;
     text-align: center; 
     clear: both;
-    
-    height:600px;
-    
+    height:660px;
     
 }
 .content__banner
 {
-  position: absolute;
+    position: absolute;
     top: 250px;
 }
 .content__banner>p
 {
     font-family: 'Raleway';
-
     padding: 25px 20px 25px 20px;
     background: rgba(0,0,0,0.5);
-    
-   
 }
 .button__banner
 {
    position: absolute;
-    top: 500px;
-    
+   top: 500px; 
 }
 .button__banner>a
 {
