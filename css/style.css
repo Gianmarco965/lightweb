@@ -256,6 +256,11 @@ body
 {
     padding: 15px 15px 0 15px; 
 }
+.section__knowus
+{
+    cursor: pointer;
+    
+}
 .section__curses article h1
 {
     font-size: 35px;
@@ -641,12 +646,14 @@ body
 
 /* Modal Content */
 .modal-content {
+    font-family: 'Raleway';
+    text-align: justify;
     position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 40%;
+    width: 60%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -686,7 +693,9 @@ body
     color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {padding: 2px 16px;
+    display: flex;
+}
 
 .modal-footer {
     padding: 2px 16px;
@@ -695,7 +704,8 @@ body
 }
 #modal__producto__img
 {
-    height: 400px;
-    width: 600px;
-    
+    height: 150px;
+    width: 400px;
+    margin-top: 55px;
+    margin-left: 30px;
 }
