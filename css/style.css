@@ -292,6 +292,7 @@ body
     font-size: 32px;
     border-radius: 18px;
     transition: all 300ms ease-in-out;
+    cursor: pointer;
 }
 .section__discovery:hover
 {
@@ -623,12 +624,12 @@ body
   transition-delay: 0.3s;
 }
 
-/*MODALES*/
+/* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1000; /* Sit on top */
-    padding-top: 0px; /* Location of the box */
+    padding-top: 158px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -645,16 +646,12 @@ body
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 80%;
+    width: 40%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
-}
-.modal__ul__lista li
-{
-    text-align: justify;
 }
 
 /* Add Animation */
@@ -685,18 +682,15 @@ body
 
 .modal-header {
     padding: 2px 16px;
-    background-color: rgb(91, 155, 17);
+    background-color: #166cd0;
     color: white;
 }
 
-.modal-body {padding: 2px 16px;
-    display: inline;
-
-}
+.modal-body {padding: 2px 16px;}
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: rgb(91, 155, 17);
+    background-color: #166cd0;
     color: white;
 }
 #modal__producto__img
