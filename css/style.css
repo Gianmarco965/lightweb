@@ -116,7 +116,7 @@ body
 .banner
 {
     
-  top: 50px;  background:url(../images/wallpaper1.jpg)no-repeat center center fixed;
+  top: 50px;  background:url(../images/wallpaper2-01.png)no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -187,16 +187,7 @@ body
     
     
 }
-.article__curses__promo
-{
-    padding: 10px;
-    margin-top: 20px;
-    height: 30px;
-    background: rgb(20,20,20);
-    position: relative;
-    top: 0;
-    z-index: 2;
-}
+
 .article__curses__left
 {
     width: 35%; 
@@ -336,6 +327,26 @@ body
     margin: 20px 150px; 
     display: inline-block;
 }
+.section__metodology__rows__left div .section__metodology__icon
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+}
+.section__metodology__rows__right div .section__metodology__icon
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    
+}
+
 
 .section__metodology__rows__left>img
 {
@@ -343,6 +354,7 @@ body
      height: 300px;
      float: left;
      width: 50%;
+    box-shadow:  0 0 5px #000;
 }
 .section__metodology__rows__left>div
 {
@@ -384,6 +396,7 @@ body
      height: 300px;
      float: right;
      width: 50%;
+     box-shadow:  0 0 5px #000;
 }
 .section__metodology__rows__right>div
 {
