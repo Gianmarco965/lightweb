@@ -615,7 +615,7 @@ body
 
 .footer__about__right .footer__suscription>input[type="submit"]
 {
-    height: 20px; border:none; 
+    height: 35px; border:none; 
     background: #6acc29;
     color: #fff;
     transition: all 300ms ease-in-out;
