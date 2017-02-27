@@ -10249,8 +10249,8 @@ $(document).ready(function() {
     });
  });  
 /*evento para slides*/
-      $(document).ready(function() {
-	$('#nav').onePageNav();
+$(document).ready(function() {
+	$('#cursesa').onePageNav();
 });
 
 /*mouse over**/
