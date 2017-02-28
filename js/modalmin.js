@@ -1,3 +1,4 @@
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -8,6 +9,7 @@ var modal = document.getElementById('myModal');
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
+
 function open__modal() {
     modal.style.display = "block";        
 }
@@ -18,6 +20,7 @@ function open__modal() {
 span.onclick = function() {
     modal.style.display = "none";
 }
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
