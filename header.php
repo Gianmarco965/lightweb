@@ -15,8 +15,9 @@
         </div> 
        </div>
         <div class="header__nav">
+           <a href="../index.php">
            <img src="../images/wissenlp.png" alt="" class="header__logo">
-            
+            </a>
             <nav class="nav">
                 <ul>
                     <li><a href="">WEB</a></li>

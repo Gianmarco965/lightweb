@@ -9,7 +9,7 @@
     ?>
     
     
-    <div class="banner__diseno__grafico">
+    <div class="banner__java">
     <div class="form__content">
        <div class="form__content__form">
         <ul class="form__content__list">
@@ -48,8 +48,8 @@
         </div>
     </div>
     <div class="content__banner">
-        <p>CARRERA DE DISEÑO GRÁFICO.</p> 
-        <p>Certifícate y conviértete en un profesional en DISEÑO GRÁFICO.</p> 
+        <p>CARRERA DE PROGRAMACIÓN EN JAVA.</p> 
+        <p>Certifícate y conviértete en una desarrollador profesional en JAVA.</p> 
     </div>
         <div class="button__banner">
             <a href="#about" id="abouts" class="section__knowus">Conócenos</a>
@@ -58,8 +58,8 @@
      </div>
    <section class="section__curses" id="curses">
         <article>
-            <h1 class="section__title">Carrera de Diseño Gráfico</h1>
-            <p>El diseño gráfico es un arte y una práctica que consiste en planificar y proyectar ideas y experiencias con un contenido visual y textual.</p>
+            <h1 class="section__title">Carrera de Programación con JAVA</h1>
+            <p>Nos permitirá programar sistemas simples, complejos y de gran envergadura para desktop, web y con tecnología cliente-servidor.</p>
         </article>
         <article class="article__curses">
             <div class="article__curses__left">
@@ -122,7 +122,7 @@
         </article>
     </section>
     
-    <div class="parallax">
+    <div class="parallax__java">
     </div>
     
     <?php

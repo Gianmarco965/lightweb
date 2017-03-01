@@ -62,6 +62,7 @@
                     <h2>¿Estás Interesado?</h2>
                     <a class="info" href="#">Ver Sílabo</a>
                     <a class="info" href="#">Matricúlate</a>
+                    <a class="info" href="../curses/java.php">Más Información</a>
                    </div>
                
               </div>
@@ -78,6 +79,7 @@
                     <h2>¿Estás Interesado?</h2>
                     <a class="info" href="#">Ver Sílabo</a>
                     <a class="info" href="#">Matricúlate</a>
+                    <a class="info" href="../curses/android.php">Más Información</a>
                    </div>
               </div>
                 <div class="article__separator">
@@ -92,6 +94,7 @@
                     <h2>¿Estás Interesado?</h2>
                     <a class="info" href="#">Ver Sílabo</a>
                     <a class="info" href="#">Matricúlate</a>
+                    <a class="info" href="../curses/autocad.php">Más Información</a>
                 </div>
             </div>
                 <div class="article__separator">
@@ -104,18 +107,19 @@
             
             <div class="article__curses__right">
                <div class="hovereffect">
-                <img src="images/programacionweb-05.png" alt="">
+                <img src="images/comingsoon.jpg" alt="">
                 <div class="overlay">
                     <h2>¿Estás Interesado?</h2>
                     <a class="info" href="#">Ver Sílabo</a>
                     <a class="info" href="#">Matricúlate</a>
+                    <a class="info" href="#">Más Información</a>
                 </div>
                 
                </div>
                 <div class="article__separator">
                     
                 </div>
-                <p>Programación WEB. </p>
+                <p>Coming Soon. </p>
             </div>
             <div class="article__curses__left">
             <div class="hovereffect">
@@ -124,6 +128,7 @@
                     <h2>¿Estás Interesado?</h2>
                     <a class="info" href="#">Ver Sílabo</a>
                     <a class="info" href="#">Matricúlate</a>
+                    <a class="info" href="../curses/disenografico.php">Más Información</a>
                 </div>
             </div>
                 <div class="article__separator">
@@ -133,17 +138,18 @@
             </div>
             <div class="article__curses__center">
             <div class="hovereffect">
-                <img src="images/javascript-07.png" alt="">
+                <img src="images/comingsoon.jpg" alt="">
                 <div class="overlay">
                     <h2>¿Estás Interesado?</h2>
                     <a class="info" href="#">Ver Sílabo</a>
                     <a class="info" href="#">Matricúlate</a>
+                    <a class="info" href="#">Más Información</a>
                 </div>
             </div>  
                 <div class="article__separator">
                     
                 </div>
-                <p>JavaScript.</p>
+                <p>Coming Soon.</p>
             </div>
         </article>
     </section>
